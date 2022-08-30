@@ -1,0 +1,6 @@
+module Pods_ci_cd_ci_cdTests {
+  umbrella header "Pods-ci_cd-ci_cdTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

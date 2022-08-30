@@ -1,0 +1,6 @@
+module Pods_ci_cd {
+  umbrella header "Pods-ci_cd-umbrella.h"
+
+  export *
+  module * { export * }
+}
