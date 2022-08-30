@@ -31,10 +31,10 @@ jobs:
  
       - name: Build Android Apk #step 4 build apk file
         run: |
-          cd android && chmod +x gradlew && ./gradlew assembleDebug --no-daemon
+          cd ci_cd && cd android && chmod +x gradlew && ./gradlew assembleDebug --no-daemon
          
       - name: Upload Artifact #step 5 locate and upload generated apk file in server
         uses: actions/upload-artifact@v1
         with:
           name: app-debug.apk
-          path: android/app/build/outputs/apk/debug/
+          path: ci_cd/android/app/build/outputs/apk/debug/
