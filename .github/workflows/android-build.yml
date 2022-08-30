@@ -3,7 +3,7 @@ name: react-native-android-build-apk #script name
 on:
   push:
     branches:
-      - master
+      - main
 #configure jobs
 jobs:
   build-android: #jobname
