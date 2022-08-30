@@ -17,6 +17,7 @@ import {
   useColorScheme,
   View,
   FlatList,
+  Image,
 } from 'react-native';
 
 import {
