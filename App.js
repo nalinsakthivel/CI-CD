@@ -1,11 +1,12 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-
+import {NavigationContainer} from '@react-navigation/native';
+import NavBar from './src/screen/NavBar';
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <NavigationContainer>
+      <NavBar />
+    </NavigationContainer>
   );
 };
 
