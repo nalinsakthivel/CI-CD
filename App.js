@@ -1,12 +1,24 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+
 import {NavigationContainer} from '@react-navigation/native';
-import NavBar from './src/screen/NavBar';
-import NavBar from './src/screen/NavBar';
+import {createStackNavigator} from '@react-navigation/stack';
+
+import Screen1 from './src/screen/Screen1';
+import Register from './src/screen/Register';
+
 const App = () => {
+  const Stack = createStackNavigator();
+
   return (
     <NavigationContainer>
-      <NavBar />
+      <Stack.Navigator screenOptions={{
+        headerShown: false,
+      }}>
+
+        <Stack.Screen name="screen" component={Screen1} />
+        <Stack.Screen name="Register" component={Register} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 };
