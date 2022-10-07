@@ -6058,6 +6058,11 @@ react-native-gradle-plugin@^0.0.7:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.7.tgz#96602f909745239deab7b589443f14fce5da2056"
   integrity sha512-+4JpbIx42zGTONhBTIXSyfyHICHC29VTvhkkoUOJAh/XHPEixpuBduYgf6Y4y9wsN1ARlQhBBoptTvXvAFQf5g==
 
+react-native-localize@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-localize/-/react-native-localize-2.2.4.tgz#3bc46ade48499ab9df61bf17a9b66633a5ba9bb9"
+  integrity sha512-gVmbyAEQQnBQ8vKlAQchFfIISeId3qT6Lc7LHmKF39nsYWX9KN4PHuG6Hk+7gduMI6IHKeZGKcLsOdh6wvN6cg==
+
 react-native-reanimated@^2.10.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.10.0.tgz#ed53be66bbb553b5b5e93e93ef4217c87b8c73db"
